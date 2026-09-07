@@ -1,0 +1,26 @@
+body {
+    font-family: 'segoe UI', sans-serif;
+    background-color: #414443;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #28216b;
+}
+
+.bio {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    background-color: cadetblue;
+}
+
+P {
+    font-size: 16PX;
+    line-height: 1.6;
+    text-align: justify;
+    color: white;
+    background-color: cadetblue;
+}
