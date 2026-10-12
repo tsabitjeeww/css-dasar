@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
     padding: 20px;
-    background-color: rgb(161, 48, 48);
+    background-color: rgb(9, 54, 3);
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #13555e; 
+    background-color: #926f42; 
     border: 1px solid #151615;
     margin-bottom: 20px;
 }
@@ -32,7 +32,7 @@ body {
     text-decoration: none;
     color: #333;
     border: 1px;
-    background-color: #2e8f82;
+    background-color: #5d973b;
     border-radius: 4px;
 }
 
@@ -43,9 +43,9 @@ body {
     gap: 20px;
     flex-wrap: wrap; 
     padding: 20px;
-    background-color: #182464; 
+    background-color: #649b7d; 
     border: 1px solid #638586;
-    border-radius: 6px;
+    border-radius: 4px;
     margin-bottom: 20px;
 }
 
@@ -56,19 +56,19 @@ body {
 
 .hero-text h1 {
     margin-bottom: 15px;
+    color: white;
 }
 
 .hero-text p {
     margin-bottom: 15px;
-    color: #555;
+    color: white;
 }
 
 .hero-image {
     flex: 1;
-    min-width: 250px;
+    min-width: 200px;
     height: 180px;
-    border: 1px solid #666;
-    background-color: #fff;
+    border: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,10 +78,10 @@ body {
 
 .galeri-produk {
     padding: 20px;
-    background-color: #f5f5f5;
-    border: 1px solid #e0e0e0;
+    background-color: #a7d1b5;
     border-radius: 6px;
     margin-bottom: 20px;
+    border: 1px solid white;
 }
 
 .galeri-produk h2 {
@@ -94,12 +94,13 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 25px;
+    background-color: #a7d1b5;
 }
 
 .img-placeholder {
     height: 30;
-    border: 1px solid rgb(110, 207, 159);
-    background-color: #75a16c;
+    border: 1px solid rgb(88, 121, 104);
+    background-color: #82c297;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,4 +110,43 @@ body {
 .btn-beli {
     margin: auto;
     padding: 8px;
+    color: white;
+    background-color: #638586;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 16px 32px;
+    color: #fff;
+    background-color: #13555e;
+    border: 1px solid #151615;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.footer .ror {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+@media (max-width: 800px) {
+    .fitur {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .fitur {
+        grid-template-columns: 1fr;
+    }
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
