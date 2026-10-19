@@ -105,6 +105,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 12px;
+    border-radius: 12px;
 }
 
 .btn-beli {
@@ -135,18 +136,35 @@ body {
   list-style: none;
 }
 
-@media (max-width: 800px) {
-    .fitur {
-        grid-template-columns: repeat(2, 1fr);
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
     }
+    .hero {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2rem 1rem;
+    }
+    .hero text h1 {
+        font-size: 1.75rem;
+    }
+    .hero-image {
+        max-width: 100%;
+    }
+    .galeri-produk {
+        padding: 2rem 1rem;
+    }
+    .grid-container {
+        max-width: 100px;
+        height: auto;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 480px) {
+   .navbar {
+        flex-direction: column;
+    } 
 }
 
-@media (max-width: 500px) {
-    .fitur {
-        grid-template-columns: 1fr;
-    }
-    .nav {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
