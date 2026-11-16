@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(248, 246, 246);
+    color: #121312;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #1D2846; 
+    color:#cfd5e5;
+    margin-bottom: 20px;
+}
+
+.nav-menu a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #ebe3e3;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+    left : 200px;
+    
+}
+
+.hero-text {
+    background-image: url("https://cloud.umroh.com/blog/wp-content/uploads/2019/08/Berqurban-Kambing-atau-Sapi-0608201901-1024x681.jpg");
+}
